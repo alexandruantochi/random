@@ -5,4 +5,4 @@
 
 Example:
 
-$conn = OracleDatabase::getConnection(); // returns a new connection or the same one if already opened
+```$conn = OracleDatabase::getConnection(); // returns a new connection or the same one if already opened```
