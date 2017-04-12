@@ -4,7 +4,7 @@
 ### oci_connect_class
 
 ```
-include('path/to/connection.php/');
+include('path/to/connection.php');
 $conn = OracleDatabase::getConnection(); // returns a new connection or the same one if already opened
 $query=oci_parse($conn, 'SELECT * FROM dual'); 
 oci_execute($query);
